@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>איקס עיגול</title>
+    <link href="_css/tic.css" rel="stylesheet" type="text/css"/>
+    <script defer src="_js/tic.js"></script>
+</head>
+<body onload="init()">
+    <div class="all_site">
+        <div class="blocks" id="id_blocks">
+            
+
+        </div>
+
+        <div>
+        <button id="id_reset_btn">Reset</button>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <form id="myForm" action="javascript:void(0);" onsubmit="writeHumanName()">
+        <table>
+          <th>
+          <td>
+          <label for="fName">First player </label>
+          <input type="text" onfocus="this.value=''" name="fName" id="fName0" required/>
+          </td>
+          </th>
+          <th>
+          <td>
+            <p id="user0"></p>
+          </td>
+          </th>
+        </table>
+
+        <table>
+          <th>
+          <td>
+          <label for="fName">Second player </label>
+          <input type="text" onfocus="this.value=''" name="fName" id="fName1" required/>
+          </td>
+          </th>
+          <th>
+          <td>
+            <p id="user1"></p>
+          </td>
+          </th>
+        </table>
+
+        <table>
+          <th>
+          <td>
+            <button value="submit" type="submit">Begin the Game</button>   
+          </td>   
+          </th>    
+        </table>
+       </form>
+      
+    
+</body>
+</html>
